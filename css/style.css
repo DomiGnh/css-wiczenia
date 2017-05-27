@@ -5,7 +5,8 @@
 
 input[type="text"]
 {
-    background-color:#2b4a64 ;
+    background-color:#2b4a64;
+        border:none;
 
 }
 
@@ -23,9 +24,11 @@ input[type="submit"]
     background-color: chartreuse;
     font-size:2em;
     color: white;
+    border: none;
 }
 textarea[type="text"]
-{background-color: #2b4a64;}
+{background-color: #2b4a64;
+border:none;}
 
 input:active
 { background-color: #4e708c;
