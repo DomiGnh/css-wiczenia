@@ -1,37 +1,56 @@
 *{
     background-color: #213b50;
-   
+    color: #fff;
 }
 
-input[type="text"]
+label {
+    display: block;
+}
+
+input[type="text"],
+input[type="phone"],
+input[type="email"],
+textarea, 
+select 
 {
-    background-color:#2b4a64;
-        border:none;
+background-color: #2b4a64;
+color: #fff;
+border: 1px solid #2b4a64;
+width: 250px;
+padding: 10px 0;
+margin-bottom: 20px;}
 
+input[type="text"]:focus,
+input[type="phone"]:focus,
+input[type="email"]:focus,
+textarea:focus,
+select:focus {
+    border: 1px solid #fff;
+    outline: none;
+    background-color: #4e708c;
 }
 
-input[type="email"]
-{
-    background-color: #2b4a64;
+label[for*="man"], label[for*="female"], label[for="agreement"]
+{ display: inline;}
 
-}
-input[type="checkbox"]
-{
-    background-color: #2b4a64;
-}
 input[type="submit"]
 {
-    background-color: chartreuse;
-    font-size:2em;
-    color: white;
-    border: none;
+    margin-top: 20px;
+    background-color: #1ac056;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 1px solid #1ac056;
+    color: #fff;
 }
-textarea[type="text"]
-{background-color: #2b4a64;
-border:none;}
 
-input:active
-{ background-color: #4e708c;
-border: solid white;
-color:white;}
+
+
+
+
+
+
+
+
+
 
