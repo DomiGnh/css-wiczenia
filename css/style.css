@@ -1,12 +1,11 @@
-.form{
+*{
     background-color: #213b50;
-    width:700px;
-    height:900px;
+   
 }
 
 input[type="text"]
 {
-    background-color: #2b4a64;
+    background-color:#2b4a64 ;
 
 }
 
@@ -15,3 +14,21 @@ input[type="email"]
     background-color: #2b4a64;
 
 }
+input[type="checkbox"]
+{
+    background-color: #2b4a64;
+}
+input[type="submit"]
+{
+    background-color: chartreuse;
+    font-size:2em;
+    color: white;
+}
+textarea[type="text"]
+{background-color: #2b4a64;}
+
+input:active
+{ background-color: #4e708c;
+border: solid white;
+color:white;}
+
